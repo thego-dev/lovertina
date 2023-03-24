@@ -48,8 +48,8 @@ local start = {
 		end
 		love.graphics.rectangle(
 			"line",
-			1, 64-boxy2,
-			127, 2*boxy2+1
+			0, 63 - boxy2,
+			127, 2 * boxy2 + 1
 		)
 		if place<6 then
 			love.graphics.print(t, 64 - 2*#t, 61)
