@@ -42,7 +42,7 @@ function love.load()
 	
 	states = {
 		start = require("states/start"),
-		play = require("states/play_state"),
+		play = require("states/play"),
 	}
 	
 	state = states.start
